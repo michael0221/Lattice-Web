@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,400;1,200&display=swap');
+@import url('http://fonts.cdnfonts.com/css/recoleta');
+
+body{
+    font-family: 'Poppins';
+}
+:root{
+    --grade: linear-gradient(to top left, rgb(238, 212, 216), white);
+    --dark-blue: rgb(8, 8, 56);
+    --smoke: rgb(228, 227, 245);
+    --purple-blue: linear-gradient(rgb(183, 154, 202), rgb(128, 165, 233));
+    --sky-blue: rgb(148, 198, 231);
+    --light-grey: rgb(226, 226, 226);
+}
+.border-cont{
+    border-radius: 30px;
+}
+.fluid-one{
+    background: var(--grade);
+}
+.bor-1{
+    border-radius: 20px;
+}
+.dark-blue{
+    background-color: var(--dark-blue);
+}
+.w100,.h100{
+    width: 75vw;
+    height: 700px;
+}
+.posi-ab{
+    position: absolute;
+    top: -80px;
+    right: 200px;
+}
+.posi-ab-two{
+    position: relative;
+    left: 150px;
+    top: 50px;
+    background: var(--purple-blue);
+}
+.smoke{
+    background-color: var(--smoke);
+}
+.purple-blue{
+    background: var(--purple-blue);
+}
+.sky-blue{
+    background-color: var(--sky-blue);
+}
+.light-grey{
+    background-color: var(--light-grey);
+}
